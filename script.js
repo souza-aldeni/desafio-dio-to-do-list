@@ -33,6 +33,7 @@ function adicionar(tarefa){
         novaDivTarefa.appendChild(novoCheckbox);
         novaDivTarefa.appendChild(novoLabel);
         divLista.appendChild(novaDivTarefa);
-        
+        document.getElementById("input-tarefa").value="";   //Para limpar o campo input, 
+                                                            //antes de digitar uma nova tarefa
     }
 }
